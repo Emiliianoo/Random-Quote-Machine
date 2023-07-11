@@ -1,0 +1,67 @@
+@import url('https://fonts.googleapis.com/css?family=Ubuntu:400:500');
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: 'Ubuntu';
+  background-color: #6CBB58;
+}
+
+#app {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+}
+
+#quote-box {
+  width: 450px;
+  padding: 40px 50px;
+  background-color: white;
+  color: #6CBB58;
+  font-size: 2em;
+  border: 3px solid black;
+  border-radius: 5px;
+}
+
+#author-box {
+  padding-top: 20px;
+  font-weight: bold;
+  text-align: right;
+}
+
+#new-quote {
+  float: right;
+}
+
+#buttons {
+  padding-top: 10px;
+}
+
+.btn {
+  font-weight: bold;
+  border-radius: 3px;
+  margin: 30px 5px 0px 0px;
+  background-color: #6CBB58;
+  font-size: .5em;
+  cursor: pointer;
+  padding: .5em;
+}
+
+.btn:hover {
+  opacity: .9;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
+footer {
+  text-align: center;
+  font-size: .9em;
+  padding-top: 10px;
+}
